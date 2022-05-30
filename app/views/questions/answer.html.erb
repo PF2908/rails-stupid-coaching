@@ -1,0 +1,17 @@
+<div class="answers">
+  <div class="question">
+    <%= @question %>
+    <br>
+    <p><em>-- you</em></p>
+  </div>
+
+  <div class="coach-answer">
+    <strong> <%= @answers %></strong>
+    <br>
+    <p><em>-- your coach</em></p>
+  </div>
+
+  <div class='link'>
+    <%= link_to "ask a new question", ask_path %>
+  </div>
+</div>
